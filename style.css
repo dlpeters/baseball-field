@@ -1,0 +1,84 @@
+body {
+    background-color: #ffffff;
+}
+.fieldname {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.park {
+    width: 800px;
+    height: 800px;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 0 3px 5px black;
+}
+
+.field {
+    width: 750px;
+    height: 750px;
+    background-color: transparent;
+    position: absolute;
+    left: 50px;
+}
+
+.infield {
+    background-color: #987644;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
+.infield .infieldGrass {
+    background: green;
+    width: 340px;
+    height: 340px;
+    left: 15px;
+    position: relative;
+    bottom: 5px;
+    
+}
+
+.bag {
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    position: absolute;
+
+}
+
+.homePlate {
+    background: #987644;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 25px;
+    lefth: 25px;
+    z-index: 3;
+    border-right: 50px;
+}
+
+.homePlate .bag {
+    top: 24px;
+    left: 30px;
+}
+
+.battersBox {
+    border: 2px solid #fff;
+    width: 19px;
+    height: 10px;
+    transform: rotateZ(135deg);
+    position: relative;
+}
+
+.battersBox.left {
+    left: 5px;
+    bottom: -22px;
+}
+
+.battersBox.right {
+    left: 28px;
+    bottom: -30px;
+}
